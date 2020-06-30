@@ -3,11 +3,21 @@ body {
   margin: 0px;
 }
 
+/* this is top_banner section css code */
+
 h1 {
   font-size: 50px;
 }
 
-.name_color {
+h2 {
+  font-size: 40px;
+}
+
+p {
+  color: dimgray;
+}
+
+.color_highlight {
   color: goldenrod;
 }
 
@@ -29,6 +39,7 @@ h1 {
 
 section {
   height: 500px;
+  padding-bottom: 150px;
 }
 
 .link_btn {
@@ -38,4 +49,63 @@ section {
   border-radius: 5px;
   color: white;
   font-weight: 700;
+}
+
+/* this is middle_section css style code */
+
+.dream_big {
+  background-image: url("../images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.jhankar_sir {
+  font-weight: 500;
+  color: black;
+}
+
+/* finl bottom design*/
+
+.box_bottom {
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 1.5%;
+  height: 75%;
+  background-color: white;
+}
+
+.bottom_bg {
+  background-image: url("../images/bottom_bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#full_stack {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, goldenrod, tomato);
+  border-image-slice: 1;
+}
+
+#baby {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+
+/*
+footer design
+*/
+
+footer {
+  position: static;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 100px;
+  background-color: #585858;
+}
+
+#footer_design {
+  color: white;
+  text-align: center;
+  padding-top: 25px;
 }
